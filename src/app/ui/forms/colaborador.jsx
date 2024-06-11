@@ -1,6 +1,6 @@
 export function FormColaborador() {
     return (
-        <form>
+        <form action={addTeste}>
             <div>
                 <label>
                     Nome:
