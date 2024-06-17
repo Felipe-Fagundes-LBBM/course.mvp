@@ -1,15 +1,14 @@
-import Header from "@/ui/forms/header"
-
+import Header from "../ui/header"
 export default function PagesLayout({
     children,
 }: Readonly<{
-    children:React.ReactNode
+    children: React.ReactNode
             }>) 
   {
   return (
    <div> 
-    <div> 
-     <Header/>
+    <div>
+       <Header/>
     </div>
     {children} 
    </div>

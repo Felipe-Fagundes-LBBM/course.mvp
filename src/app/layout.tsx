@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MVP Banco de Talentos!",
+  title: "MVP Banco de Talentos",
   description: "Estudo de Next.js",
-};
+}
 
 export default function RootLayout({
   children,
