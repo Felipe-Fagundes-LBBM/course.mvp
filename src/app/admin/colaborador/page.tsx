@@ -4,7 +4,7 @@ export default function ColaboradorPage() {
     return (
         <div>
             <h1>Colaborador - Cadastro</h1>
-            <FormColaborador />
+        <FormColaborador/>
         </div>
     );
 }

@@ -1,3 +1,5 @@
+import { addTeste } from "@/app/lib/action";
+
 export function FormColaborador() {
     return (
         <form action={addTeste}>
@@ -12,8 +14,8 @@ export function FormColaborador() {
                     Email:
                     <input type="email" name="email" />
                 </label>
-                <button type="submit">Cadastrar</button>
             </div>
+            <button type="submit">Cadastrar</button>
         </form>
     );
 }
