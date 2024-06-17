@@ -1,5 +1,6 @@
 export const addTeste = async (formData: FormData) =>{
     "use server"
    let name = formData.get("nome")
-   console.log("addTeste: " + name)
+   let email = formData.get("email")
+   console.log("Form: " + name + "-" + email)
 }
