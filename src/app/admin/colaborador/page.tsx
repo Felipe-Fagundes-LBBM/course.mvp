@@ -3,8 +3,7 @@ import { FormColaborador } from "@/app/ui/forms/colaborador";
 export default function ColaboradorPage() {
     return (
         <div>
-            <h1>Colaborador - Cadastro</h1>
-        <FormColaborador/>
+            <FormColaborador title={"Cadastro Colaborador"}/>
         </div>
     );
 }
