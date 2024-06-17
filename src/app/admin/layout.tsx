@@ -1,4 +1,6 @@
-import Header from "../ui/header"
+import Header from "@/app/ui/forms/header"
+import { Box } from "@mui/material"
+import Navbar from "../ui/navbar"
 export default function PagesLayout({
     children,
 }: Readonly<{
@@ -10,7 +12,10 @@ export default function PagesLayout({
     <div>
        <Header/>
     </div>
-    {children} 
+    <Box sx={{ flexDirection: "row", display: "flex"}}>
+        <Navbar/>
+        {children}
+    </Box> 
    </div>
          )     
   }   
