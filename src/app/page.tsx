@@ -3,6 +3,6 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div>RELOU</div>
+    <div>Hello Word</div>
   );
 }
